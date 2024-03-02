@@ -6,7 +6,17 @@
 
 解决方案：
 
+前提已经安装了一些基础的java/Python环境。
+
 详见代码：is_english_name.py
+
+步骤1： 需要安装 Python nltk 库 , pip install nltk
+        详见：https://www.nltk.org/install.html
+步骤2： 下载 NERTag，也可以从git上直接下载  详见：https://nlp.stanford.edu/software/tagger.html
+
+步骤3： 将stanford-ner.jar 设置到JAVA所需要的系统变量CLASSPATH中。
+
+步骤4： 执行代码提供的测试用例，做你想做的任何事情。
 
 # ```
 # 斯坦福命名实体识别（Stanford NER）是一个用Java实现的命名实体识别器。命名实体识别（NER）是在文本中标记出表示事物的词语序列的过程，如人名、公司名、基因名、蛋白质名等。
